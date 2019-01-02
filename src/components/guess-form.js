@@ -30,12 +30,7 @@ export class GuessForm extends React.Component {
           ref={input => (this.input = input)}
           required
         />
-        <button 
-          type="submit"
-          name="submit"
-          id="guessButton" 
-          className="button"
-        >
+        <button type="submit" name="submit" id="guessButton" className="button">
           Guess
         </button>
       </form>
@@ -43,4 +38,4 @@ export class GuessForm extends React.Component {
   }
 }
 
-export default connect ()(GuessForm);
+export default connect()(GuessForm);
